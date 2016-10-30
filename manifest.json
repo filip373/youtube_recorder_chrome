@@ -6,12 +6,13 @@
   "version": "1.0",
 
   "background": {
-	"scripts": ["jquery-3.1.1.min.js", "background.js"]
+  "scripts": ["jquery-3.1.1.min.js", "background.js"]
   },
+
   "permissions": [
     "*://www.youtube.com/*",
-	"*://channel-recorder-server.herokuapp.com/*",
-	"tabs", 
-	"webNavigation"
+  "*://channel-recorder-server.herokuapp.com/*",
+  "tabs",
+  "webNavigation"
   ]
 }
