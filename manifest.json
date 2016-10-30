@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "YouTube Recorder",
+  "description": "This extension records time spent on YouTube and upload it to server to gather statistics.",
+  "version": "1.0",
+
+  "background": {
+	"scripts": ["jquery-3.1.1.min.js", "background.js"]
+  },
+  "permissions": [
+    "*://www.youtube.com/*",
+	"*://channel-recorder-server.herokuapp.com/*",
+	"tabs", 
+	"webNavigation"
+  ]
+}
