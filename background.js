@@ -1,4 +1,4 @@
-console.log("initialize background");
+console.log("something");
 
 var playingTabs = {};
 
